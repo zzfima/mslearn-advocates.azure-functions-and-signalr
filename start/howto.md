@@ -1,6 +1,8 @@
 ## In Azure site:
-* Run the following command in Cloud Shell to define a name for your Azure Storage account.
+* Run the following command in Cloud Shell to define a name for your Azure Storage account.  
+    
     export STORAGE_ACCOUNT_NAME=mslsigrstorage$(openssl rand -hex 5)
+    
     echo "Storage Account Name: $STORAGE_ACCOUNT_NAME"
 
 * Run the following az storage account create command to create a storage account for your function and static website.
@@ -44,10 +46,7 @@
 
 * npm install
 
+* F5
 
-
-
-
-
-
-
+* To run the web application on your machine, open a second integrated terminal instance and run the following command to start the web app.
+    npm start
