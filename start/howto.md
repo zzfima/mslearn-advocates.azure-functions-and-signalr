@@ -4,7 +4,12 @@
 * vscode: Azure Storage
 * vscode: Azure Resources
 * NODE.JS
-* Azure Functions Core Tools: https://github.com/Azure/app-service-announcements/issues/266
+* Azure Functions Core Tools. its 2 parts process:
+  * go to https://github.com/Azure/azure-functions-core-tools/releases
+  * select version you want
+  * For example, 4.0.4629
+  * 1 - download func-cli-4.0.4629-x64.msi file and install
+  * 2 - in vscode do npm on SAME version: npm install -g azure-functions-core-tools@4.0.4629
 * 
 
 ## In Azure site:
