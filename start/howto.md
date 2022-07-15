@@ -4,7 +4,7 @@
 * vscode: Azure Storage
 * vscode: Azure Resources
 * NODE.JS
-* Azure Functions Core Tools: (https://github.com/Azure/azure-functions-core-tools/releases)
+* Azure Functions Core Tools: https://github.com/Azure/app-service-announcements/issues/266
 * 
 
 ## In Azure site:
