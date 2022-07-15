@@ -1,3 +1,12 @@
+## on pc install:
+* vscode
+* vscode: Azure Functions
+* vscode: Azure Storage
+* vscode: Azure Resources
+* NODE.JS
+* Azure Functions Core Tools: (https://github.com/Azure/azure-functions-core-tools/releases)
+* 
+
 ## In Azure site:
 * Run the following command in Cloud Shell to define a name for your Azure Storage account.  
     
@@ -5,7 +14,7 @@
     
     echo "Storage Account Name: $STORAGE_ACCOUNT_NAME"
 
-* Run the following az storage account create command to create a storage account for your function and static website.
+* Run the following az storage account create command to create a storage  account for your function and static website.
     az storage account create \
     --name $STORAGE_ACCOUNT_NAME \
     --resource-group xxx \
